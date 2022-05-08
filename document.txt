@@ -1,1 +1,6 @@
-hi
+Git 사용법 익혀보기 - https://www.youtube.com/watch?v=rhP5pseOJc0&list=PLRx0vPvlEmdD5FLIdwTM4mKBgyjv4no81
+
+cd 명령어로 원하는 폴더로 이동후 
+git clone [내 저장소 주소]
+git add [파일명]
+git commit -m "커밋 내용" // 커밋하기
