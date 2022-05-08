@@ -2,5 +2,7 @@ Git 사용법 익혀보기 - https://www.youtube.com/watch?v=rhP5pseOJc0&list=PL
 
 cd 명령어로 원하는 폴더로 이동후 
 git clone [내 저장소 주소]
+
 git add [파일명]
 git commit -m "커밋 내용" // 커밋하기
+git push // 실제 깃허브 저장소에 적용
