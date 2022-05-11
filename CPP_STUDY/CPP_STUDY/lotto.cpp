@@ -1,20 +1,20 @@
 #include <iostream>
 using namespace std;
 
-//int swap(int *a, int *b) { // Æ÷ÀÎÅÍ ¹æ½Ä
+//int swap(int *a, int *b) { // í¬ì¸í„° ë°©ì‹
 //	int c = *a;
 //	*a = *b;
 //	*b = c;
 //	return 0;
 //}
 //
-//void swap(int& a, int& b) { //ÂüÁ¶ ¹æ½Ä
+//void swap(int& a, int& b) { //ì°¸ì¡° ë°©ì‹
 //	int c = a;
 //	a = b;
 //	b = c;
 //}
 
-//void sort(int numbers[], int count) { // Á¤·Ä ¿¬½À
+//void sort(int numbers[], int count) { // ì •ë ¬ ì—°ìŠµ
 //	for (int i = 0; i < count; i++) {
 //		for (int j = i + 1; j < count; j++) {
 //			if (numbers[i] > numbers[j]) {
@@ -26,7 +26,7 @@ using namespace std;
 //	}
 //}
 
-void lotto(int numbers[]) {
+void lotto(int numbers[]) { //ì¤‘ë³µì œê±° ë°©ì‹, while ë£¨í”„ì•ˆì— boolì„ ë„£ì–´ì„œ 
 	srand((unsigned)time(0));
 	int cnt = 0;
 	while (cnt != 6)
@@ -36,7 +36,7 @@ void lotto(int numbers[]) {
 		for (int i = 0; i < cnt; i++) {
 			if (numbers[i] == randvalue)
 			{
-				cout << "ÀÏÄ¡ ";
+				cout << "ì¼ì¹˜ ";
 				break;
 			}
 		}
